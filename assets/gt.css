@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu');
+
+body {
+  margin: 0;
+  background-image: linear-gradient(to bottom, #87ceeb, #eeeeee);
+  background-attachment: fixed;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+#info h1 {
+  margin: 1em auto 1em auto;
+  font-size: 36pt;
+  font-weight: bold;
+}
+#info #cloud {
+  width: 640px;
+  height: 400px;
+  margin-bottom: 1em;
+}
+#info p {
+  margin: 0.75em auto;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14pt;
+}
+#info a {
+  text-decoration: none;
+  cursor: pointer;
+}
+#cflems a {
+  color: #17769a;
+}
+#cflems a:hover {
+  color: #0d4458;
+}
+a#geono_link {
+  color: #347235;
+}
+a#geono_link:hover {
+  color: #205e21;
+}
+a#scratch_link {
+  color: #fb7700;
+}
+a#scratch_link:hover {
+  color: #fb3800;
+}
