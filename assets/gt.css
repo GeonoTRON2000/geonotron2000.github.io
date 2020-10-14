@@ -16,8 +16,7 @@ body {
   font-weight: bold;
 }
 #info #cloud {
-  width: 640px;
-  height: 400px;
+  height: 18em;
   margin-bottom: 1em;
 }
 #info p {
@@ -37,6 +36,7 @@ body {
 }
 a#geono_link {
   color: #347235;
+  font-weight: bold;
 }
 a#geono_link:hover {
   color: #205e21;
@@ -46,4 +46,16 @@ a#scratch_link {
 }
 a#scratch_link:hover {
   color: #fb3800;
+}
+a#git_link {
+  color: #42474c;
+}
+a#git_link:hover {
+  color: #24292e;
+}
+a#gist_link {
+  color: #a6abb0;
+}
+a#gist_link:hover {
+  color: #888d92;
 }
