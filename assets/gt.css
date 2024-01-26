@@ -28,12 +28,6 @@ body {
   text-decoration: none;
   cursor: pointer;
 }
-#cflems a {
-  color: #17769a;
-}
-#cflems a:hover {
-  color: #0d4458;
-}
 a#geono_link {
   color: #347235;
   font-weight: bold;
@@ -58,4 +52,10 @@ a#gist_link {
 }
 a#gist_link:hover {
   color: #888d92;
+}
+a.pgp_link {
+  color: #33b63f;
+}
+a.pgp_link:hover {
+  color: #2d8238;
 }
